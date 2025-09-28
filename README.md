@@ -31,7 +31,7 @@ Este es un proyecto de una tienda en linea desarrollado con Kotlin, diseñado pa
 ## Instalación
 1- Clona el repositorio:
 ```bash
- https://github.com/4lejanddr0/Primer_Proyecto_Kotlin_Tienda_en_linea.git
+ https://github.com/4lejanddr0/Proyecto_Kotlin_tienda_en_linea.git
 ```
 
 2- Ejecuta la aplicación dando clic en el boton run
