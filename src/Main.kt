@@ -7,7 +7,7 @@ fun main() {
     while (true) {
         println("\nBienvenido a tienda Accesories en línea. Elige una opción:")
         println("1. Ver los productos disponibles")
-        println("2. Agregar producto al carrito")
+        println("2. Agregar producto al carrito de compras")
         println("3. Eliminar producto del carrito")
         println("4. Ver carrito de tu compra")
         println("5. Pagar")
