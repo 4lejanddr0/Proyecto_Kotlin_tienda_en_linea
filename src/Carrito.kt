@@ -11,7 +11,7 @@ class Carrito {
 
         producto.cantidadDisponible -= cantidad
         productosEnCarrito[producto.nombre] = productosEnCarrito.getOrDefault(producto.nombre, 0) + cantidad
-        println("Tu producto ha sido agregado al carrito de compra: ${producto.nombre} (x$cantidad)")
+        println("El producto ha sido añadido exitosamente al carrito de compras : ${producto.nombre} (x$cantidad)")
 
         // Disparar evento
         onProductoAgregado?.invoke(producto, cantidad)
@@ -37,7 +37,7 @@ class Carrito {
 
    fun mostrarCarrito() {
     if (productosEnCarrito.isEmpty()) {
-        println("\n🛒 El carrito está vacío, elige algun producto.")
+        println("\n🛒 El carrito de compras está vacío. Por favor, seleccione al menos un producto para continuar.")
         return
     }
 
@@ -75,7 +75,7 @@ class Carrito {
 
     fun generarFactura() {
         if (productosEnCarrito.isEmpty()) {
-            println("No hay productos en el carrito para generar factura, por favor elige producto.")
+            println("No se han encontrado productos en el carrito. Por favor, seleccione al menos un artículo para proceder con la generación de la factura.")
             return
         }
 
@@ -98,7 +98,7 @@ class Carrito {
         println("\nSubtotal: $${"%.2f".format(total)}")
         println("Impuesto (13%): $${"%.2f".format(impuesto)}")
         println("Total a pagar: $${"%.2f".format(totalConImpuesto)}")
-        println("Gracias por su compra, te esperamos a la proxima!")
+        println("Le agradecemos su compra y esperamos atenderle nuevamente muy pronto")
 
         productosEnCarrito.clear()
     }
