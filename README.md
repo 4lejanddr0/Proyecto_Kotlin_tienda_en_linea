@@ -44,3 +44,6 @@ Este es un proyecto de una tienda en linea desarrollado con Kotlin, diseñado pa
 ## Autores
 
 - Jesus Alejandro campos Landaverde CCL212345
+- Devin Ivan Mendoza Ortiz MO190319
+- Consuelo Astrid Landa Hernandez LH201536
+- Arturo Jose Gomez Henriquez GH191748
